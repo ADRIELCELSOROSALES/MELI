@@ -1,4 +1,4 @@
-package com.example.appchallengemeli.ui.common
+package com.example.appchallengemeli.presentation.common
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

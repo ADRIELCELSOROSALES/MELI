@@ -1,4 +1,4 @@
-package com.example.appchallengemeli.ui.common
+package com.example.appchallengemeli.presentation.common
 
 import org.junit.Assert.assertTrue
 import org.junit.Test

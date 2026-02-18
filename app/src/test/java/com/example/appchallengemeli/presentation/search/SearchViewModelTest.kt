@@ -1,4 +1,4 @@
-package com.example.appchallengemeli.ui.search
+package com.example.appchallengemeli.presentation.search
 
 import com.example.appchallengemeli.MainDispatcherRule
 import com.example.appchallengemeli.core.AppException

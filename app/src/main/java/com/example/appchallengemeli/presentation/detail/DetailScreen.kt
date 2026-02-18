@@ -1,4 +1,4 @@
-package com.example.appchallengemeli.ui.detail
+package com.example.appchallengemeli.presentation.detail
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -41,9 +41,9 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import coil.compose.SubcomposeAsyncImage
 import com.example.appchallengemeli.core.UiState
 import com.example.appchallengemeli.domain.model.ProductDetail
-import com.example.appchallengemeli.ui.common.ErrorState
-import com.example.appchallengemeli.ui.common.LoadingIndicator
-import com.example.appchallengemeli.ui.common.formatPrice
+import com.example.appchallengemeli.presentation.common.ErrorState
+import com.example.appchallengemeli.presentation.common.LoadingIndicator
+import com.example.appchallengemeli.presentation.common.formatPrice
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

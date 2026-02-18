@@ -1,4 +1,4 @@
-package com.example.appchallengemeli.ui.detail
+package com.example.appchallengemeli.presentation.detail
 
 import androidx.lifecycle.SavedStateHandle
 import com.example.appchallengemeli.MainDispatcherRule

@@ -1,4 +1,4 @@
-package com.example.appchallengemeli.ui.theme
+package com.example.appchallengemeli.presentation.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

@@ -5,8 +5,8 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.navigation.compose.rememberNavController
-import com.example.appchallengemeli.ui.navigation.MeliNavGraph
-import com.example.appchallengemeli.ui.theme.AppChallengeMELITheme
+import com.example.appchallengemeli.presentation.navigation.MeliNavGraph
+import com.example.appchallengemeli.presentation.theme.AppChallengeMELITheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

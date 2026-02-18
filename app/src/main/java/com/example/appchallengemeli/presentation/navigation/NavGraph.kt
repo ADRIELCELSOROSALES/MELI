@@ -1,4 +1,4 @@
-package com.example.appchallengemeli.ui.navigation
+package com.example.appchallengemeli.presentation.navigation
 
 import android.net.Uri
 import androidx.compose.animation.AnimatedContentTransitionScope
@@ -11,8 +11,8 @@ import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
-import com.example.appchallengemeli.ui.detail.DetailScreen
-import com.example.appchallengemeli.ui.search.SearchScreen
+import com.example.appchallengemeli.presentation.detail.DetailScreen
+import com.example.appchallengemeli.presentation.search.SearchScreen
 
 object Routes {
     const val SEARCH = "search"

@@ -1,4 +1,4 @@
-package com.example.appchallengemeli.ui.search
+package com.example.appchallengemeli.presentation.search
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -13,7 +13,6 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.layout.wrapContentWidth
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
@@ -56,10 +55,10 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import coil.compose.SubcomposeAsyncImage
 import com.example.appchallengemeli.core.UiState
 import com.example.appchallengemeli.domain.model.Product
-import com.example.appchallengemeli.ui.common.EmptyState
-import com.example.appchallengemeli.ui.common.ErrorState
-import com.example.appchallengemeli.ui.common.LoadingIndicator
-import com.example.appchallengemeli.ui.common.formatPrice
+import com.example.appchallengemeli.presentation.common.EmptyState
+import com.example.appchallengemeli.presentation.common.ErrorState
+import com.example.appchallengemeli.presentation.common.LoadingIndicator
+import com.example.appchallengemeli.presentation.common.formatPrice
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

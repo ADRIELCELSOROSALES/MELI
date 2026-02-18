@@ -1,4 +1,4 @@
-package com.example.appchallengemeli.ui.common
+package com.example.appchallengemeli.presentation.common
 
 import java.text.NumberFormat
 import java.util.Locale

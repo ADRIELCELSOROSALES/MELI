@@ -1,4 +1,4 @@
-package com.example.appchallengemeli.ui.search
+package com.example.appchallengemeli.presentation.search
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
